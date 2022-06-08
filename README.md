@@ -1,5 +1,5 @@
 # Deathnote
-<img src="https://media3.giphy.com/media/xT1XH3NIegS0FBc1K8/giphy.gif"/>
+<img align="Center" src="https://media3.giphy.com/media/xT1XH3NIegS0FBc1K8/giphy.gif">
 
 ### Proof of Concept of CVE-2022-30190
 
