@@ -53,5 +53,4 @@ $ python3 Deathnote.py -c "calc"
  
  ```
  python3 Deathnote.py -p 1234
- 
  ```
