@@ -46,6 +46,8 @@ Pop `calc.exe`:
 $ python3 Deathnote.py -c "calc"
 ```
 
+![demo](https://user-images.githubusercontent.com/86009160/194345014-808a8bbe-44ed-4c74-9a28-cc9933cdd3f7.gif)
+
 
 ### Get a reverse shell on port 4444. **Note, this downloads a netcat binary _onto the victim_ and places it in `C:\Windows\Tasks`. It does not clean up the binary. This will trigger antivirus detections unless AV is disabled.**
  
